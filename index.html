@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>Ingrese un numero y el programa le dira si es primo, pertenece a la serie Fibonacci o si es un numero par, si su numero es par el bombillo con la opcion de par va a alumbrar de color rojo y asi sucesivamente.</p>
+    <div class="principal">
+        <div>
+            <input type="number" id="numero">
+        </div>
+        <div>
+            <button id="pulse" class="principal">Procesar</button>
+        </div>
+    </div>
+    <div class="contendor-botones">
+        <div>
+            <button class="clasificadores" id="boton-par">Par</button>
+            <label>Numero Par</label>
+        </div>
+        <div>
+            <button class="clasificadores" id="boton-Fibonachi">Fibonachi</button>
+            <label>El numero pertence a la serie Fibonachi</label>
+        </div>
+        <div>
+            <button class="clasificadores" id="boton-Primo">Primo</button>
+            <label>Es un numero primo</label>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
